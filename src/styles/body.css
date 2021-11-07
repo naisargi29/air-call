@@ -1,0 +1,16 @@
+html, body, h1, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+  }
+  
+  body {
+    background: #031b38;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1;
+  }
+  

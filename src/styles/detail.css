@@ -1,0 +1,46 @@
+.detail {
+    width: 377px;
+    height: 490px;
+    z-index: 100;
+    background: #E8E8E8;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
+  }
+  .from{
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px;
+}
+
+  .detailCard {
+    width: 335px;
+    height: 190px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: .80rem;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+    background-color: white;
+    transform-style: preserve-3d;
+    transition: 151ms;
+    cursor: pointer;
+    transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
+    font-size: medium;
+    font-weight: bold; 
+  }
+.content{
+    margin-left: 30px;
+}
+
+.space{
+    color: red;
+    margin-right: 30px;
+}
+.button{
+    margin: 50px 0px 0px 130px;
+}

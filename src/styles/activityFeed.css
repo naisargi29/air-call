@@ -1,0 +1,36 @@
+.activity {
+    width: 376px;
+    height: 485px;
+    z-index: 100;
+    background: #eaeaec;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
+    overflow: scroll;
+  }
+
+  .card {
+    width: 332px;
+    height: 57px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    margin-left: 20px;
+    border-radius: .80rem;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+    background-color: white;
+    transform-style: preserve-3d;
+    transition: 150ms;
+    cursor: pointer;
+    transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
+  }
+  .icon{
+      margin-left: 20px;
+      margin-right: 10px;
+  }
+  .title{
+      font-weight: bold;
+  }
+  .time{
+    margin-right: 10px;
+  }
